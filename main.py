@@ -14,8 +14,8 @@ api_id = 18922496
 api_hash = '371d1dc33eccaa19bb0814a27bb98f3c'
 token = "5908403050:AAGBvrh-nvXQtMcdADCiSUBLoHqOZSCdklk"
 bot = Client("Bot", bot_token=token, api_hash=api_hash, api_id=api_id)
-dev = 5701395951
-admins = [5701395951, 1694386561]
+dev = 6330435571
+admins = [6330435571, 5405731745]
 stats = []
 force_stop = []
 threads_num = 3
@@ -117,7 +117,7 @@ async def random_catch_forward(call):
         except:
             pass
     keyboard2.inline_keyboard += [[
-        InlineKeyboardButton("Dev", url="t.me/R0R77")
+        InlineKeyboardButton("Dev", url="t.me/c_7c7")
     ]]
     await bot.send_message(cid, "brelin the best :)", reply_markup=keyboard2)
 
@@ -150,7 +150,7 @@ async def list_catch_forward(call):
         except:
             pass
     keyboard2.inline_keyboard += [[
-        InlineKeyboardButton("Dev", url="t.me/R0R77")
+        InlineKeyboardButton("Dev", url="t.me/c_7c7")
     ]]
     await bot.send_message(cid, "jmthon the best :)", reply_markup=keyboard2)
 
@@ -326,8 +326,7 @@ async def answer(_, call):
             call.message.chat.id,
             "ارسل يوزر القناة لتثبيت اليوزر , او ارسل (حساب) للتثبيت على الحساب")
         list = await bot.ask(
-            call.message.chat.id,
-            "ارسل لسته اليوزرات مثل : \n @R0R77 \n @jmthon ")
+            call.message.chat.id,"ارسل لستة اليوزرات مثل @c_7c7 \n@ToGoLang")
         list = list.text.split("\n")
         if "" in list:
             list.remove("")
