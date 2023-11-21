@@ -12,7 +12,7 @@ from long_time import long_time
 #from proxy_scrape import http_proxies, start_scrap
 api_id = 18922496
 api_hash = '371d1dc33eccaa19bb0814a27bb98f3c'
-token = "5908403050:AAGBvrh-nvXQtMcdADCiSUBLoHqOZSCdklk"
+token = "6454343075:AAElcZy5XhnUs7692I99OghofXHGj44iMKs"
 bot = Client("Bot", bot_token=token, api_hash=api_hash, api_id=api_id)
 dev = 6330435571
 admins = [6330435571, 5405731745]
